@@ -1,0 +1,70 @@
+{
+  "hash": "52809146",
+  "configHash": "61d9b2fa",
+  "lockfileHash": "5fb700c3",
+  "browserHash": "fe649932",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "dc23a221",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "6149694b",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "f47d7d87",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "83fabfd0",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "b5cb963f",
+      "needsInterop": false
+    },
+    "rxjs": {
+      "src": "../../../../../../node_modules/rxjs/dist/esm5/index.js",
+      "file": "rxjs.js",
+      "fileHash": "de8bb490",
+      "needsInterop": false
+    },
+    "rxjs/operators": {
+      "src": "../../../../../../node_modules/rxjs/dist/esm5/operators/index.js",
+      "file": "rxjs_operators.js",
+      "fileHash": "39306526",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-HQ5DBS3Z": {
+      "file": "chunk-HQ5DBS3Z.js"
+    },
+    "chunk-DEAT6H7F": {
+      "file": "chunk-DEAT6H7F.js"
+    },
+    "chunk-RR5AXKAS": {
+      "file": "chunk-RR5AXKAS.js"
+    },
+    "chunk-LPEPAQVY": {
+      "file": "chunk-LPEPAQVY.js"
+    },
+    "chunk-UEYFFO6E": {
+      "file": "chunk-UEYFFO6E.js"
+    },
+    "chunk-LBGRCHB7": {
+      "file": "chunk-LBGRCHB7.js"
+    }
+  }
+}
