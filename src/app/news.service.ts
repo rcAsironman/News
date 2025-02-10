@@ -8,20 +8,21 @@ import { map, catchError } from 'rxjs/operators';
 })
 export class NewsService {
   // private apiUrl = 'https://newsapi.org/v2/top-headlines';
-  private apiUrl = 'https://script.google.com/macros/s/AKfycbwRAoqVvPIK8cCk-HcbbuchjXDv_dW6srFpGcYKlnl9jSjWXNvfhZNyyvTy3S0Bk_tSHQ/exec';
+  // private apiUrl = 'https://script.google.com/macros/s/AKfycbwRAoqVvPIK8cCk-HcbbuchjXDv_dW6srFpGcYKlnl9jSjWXNvfhZNyyvTy3S0Bk_tSHQ/exec';
+  private apiUrl = 'https://gnews.io/api/v4/top-headlines';
 
 
   constructor(private http: HttpClient) {}
 
   getNews(country: string = 'us', page: number = 1, pageSize: number = 10): Observable<any> {
-    return this.http.get(`${this.apiUrl}?country=${country}&pageSize=${pageSize}&page=${page}&apikey=${'d0bc767c45604760bb11a49cb4d48768'}`).pipe(
+    return this.http.get(`${this.apiUrl}?category=general&lang=en&country=${country}&max=${pageSize}&page=${page}&apikey=${'118b1cb99d0de69be387561704e95bd3'}`).pipe(
       map((response: any) => {
         return {
           articles: response.articles.map((article: any) => ({
             title: article.title,
             description: article.description,
             url: article.url,
-            urlToImage: article.urlToImage || 'https://via.placeholder.com/400x200?text=No+Image',
+            urlToImage: article.image || 'https://via.placeholder.com/400x200?text=No+Image',
             publishedAt: new Date(article.publishedAt),
             source: article.source.name
           })),
