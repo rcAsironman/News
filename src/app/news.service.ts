@@ -8,7 +8,7 @@ import { map, catchError } from 'rxjs/operators';
 })
 export class NewsService {
   // private apiUrl = 'https://newsapi.org/v2/top-headlines';
-  private apiUrl = 'https://script.google.com/macros/s/AKfycbxySg8sTbVuDwr_sOc3orIuSFDxH4VQbrvHTPCoBmfDalzv1S5c7V6w0qrmUmcqXNzXFg/exec';
+  private apiUrl = 'https://script.google.com/macros/s/AKfycbwRAoqVvPIK8cCk-HcbbuchjXDv_dW6srFpGcYKlnl9jSjWXNvfhZNyyvTy3S0Bk_tSHQ/exec';
 
 
   constructor(private http: HttpClient) {}
