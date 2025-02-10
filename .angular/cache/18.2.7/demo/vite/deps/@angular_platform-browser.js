@@ -69,8 +69,8 @@ import {
   ɵɵdefineNgModule,
   ɵɵinject
 } from "./chunk-RR5AXKAS.js";
-import "./chunk-LPEPAQVY.js";
 import "./chunk-UEYFFO6E.js";
+import "./chunk-LPEPAQVY.js";
 import {
   __spreadProps,
   __spreadValues
